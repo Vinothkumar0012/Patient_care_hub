@@ -1,0 +1,72 @@
+[
+  {
+    "hospital_id": "H001",
+    "hospital_name": "Coimbatore Medical College Hospital",
+    "location": "Coimbatore, Tamil Nadu, India",
+    "open_time": "08:00 AM",
+    "close_time": "08:00 PM"
+  },
+  {
+    "hospital_id": "H002",
+    "hospital_name": "Kovai Medical Center and Hospital",
+    "location": "Avinashi Road, Peelamedu, Coimbatore, Tamil Nadu, India",
+    "open_time": "24 Hours",
+    "close_time": "24 Hours"
+  },
+  {
+    "hospital_id": "H003",
+    "hospital_name": "PSG Hospitals",
+    "location": "Peelamedu, Coimbatore, Tamil Nadu, India",
+    "open_time": "08:00 AM",
+    "close_time": "09:00 PM"
+  },
+  {
+    "hospital_id": "H004",
+    "hospital_name": "G.Kuppuswamy Naidu Memorial Hospital",
+    "location": "Coimbatore, Tamil Nadu, India",
+    "open_time": "09:00 AM",
+    "close_time": "07:00 PM"
+  },
+  {
+    "hospital_id": "H005",
+    "hospital_name": "Sri Ramakrishna Hospital",
+    "location": "Coimbatore, Tamil Nadu, India",
+    "open_time": "08:00 AM",
+    "close_time": "08:00 PM"
+  },
+  {
+    "hospital_id": "H006",
+    "hospital_name": "Apollo Speciality Hospitals",
+    "location": "Greams Road, Chennai, Tamil Nadu, India",
+    "open_time": "24 Hours",
+    "close_time": "24 Hours"
+  },
+  {
+    "hospital_id": "H007",
+    "hospital_name": "Fortis Malar Hospital",
+    "location": "Adyar, Chennai, Tamil Nadu, India",
+    "open_time": "09:00 AM",
+    "close_time": "09:00 PM"
+  },
+  {
+    "hospital_id": "H008",
+    "hospital_name": "Manipal Hospitals",
+    "location": "Old Airport Road, Bengaluru, Karnataka, India",
+    "open_time": "08:00 AM",
+    "close_time": "08:00 PM"
+  },
+  {
+    "hospital_id": "H009",
+    "hospital_name": "Max Super Speciality Hospital",
+    "location": "Saket, New Delhi, India",
+    "open_time": "24 Hours",
+    "close_time": "24 Hours"
+  },
+  {
+    "hospital_id": "H010",
+    "hospital_name": "AIIMS",
+    "location": "Ansari Nagar, New Delhi, India",
+    "open_time": "24 Hours",
+    "close_time": "24 Hours"
+  }
+]
