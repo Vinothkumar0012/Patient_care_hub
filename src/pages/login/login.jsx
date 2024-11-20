@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./login.css";
 import users from '../../data/users.json'
 import { useNavigate } from "react-router-dom";
+import { loginAxios } from "./loginAxios";
 
 export default function LoginPage() {
     const [isSignUp, setIsSignUp] = useState(false);
@@ -13,14 +14,13 @@ export default function LoginPage() {
         console.log('%csrc/pages/login/login.jsx:9 object', 'color: #007acc;');
     }
 
-    const signIn = () => {
-        const user = users.find((user) => user.email === payload?.email);
-        console.log('%csrc/pages/login/login.jsx:18 user', 'color: #007acc;', user);
-        if (user) {
-            if (user.password === payload.password) {
-                localStorage.setItem('id', user.id);
-                navigate('/');
-            }
+    const signIn = async () => {
+        const { data } = await loginAxios(payload);
+        console.log('%csrc/pages/login/login.jsx:18 user', 'color: #007acc;', data);
+        if (data) {
+            localStorage.setItem('id', data.id);
+            localStorage.setItem('name', data.name);
+            navigate('/');
         } else {
             console.log('User not found')
         }

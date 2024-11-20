@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import DoctorPage from './pages/doctors/doctors';
 import AppointmentBookPage from './pages/bookAppointment/bookAppointment';
 import LoginPage from './pages/login/login';
+import AppointmentsPage from './pages/bookAppointment/apointments';
 
 export const AppName = 'Patient Care HUB';
 
@@ -23,6 +24,7 @@ root.render(
         <Route path={'/hospitals'} element={<HospitalPage />} />
         <Route path={'/doctors'} element={<DoctorPage />} />
         <Route path={'/bookAppointment'} element={<AppointmentBookPage />} />
+        <Route path={'/appointments'} element={<AppointmentsPage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -31,9 +31,14 @@ export default function DoctorPage() {
 
     useEffect(() => {
         const id = params.get('id');
+        const disease = params.get('disease');
 
         if (id) {
             const doctorsList = doctorsData.filter((doctor) => doctor.hospital_id === id);
+            setDoctors(doctorsList);
+            setResult(doctorsList);
+        } else if (disease) {
+            const doctorsList = doctorsData.filter((doctor) => doctor.disease.some((d) => d.toLowerCase().includes(disease.toLowerCase())));
             setDoctors(doctorsList);
             setResult(doctorsList);
         } else {

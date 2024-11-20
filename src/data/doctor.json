@@ -4,181 +4,303 @@
     "name": "Dr. A. Kumar",
     "specialized_in": "Cardiology",
     "experience": "10 years",
-    "hospital_id": "H001"
+    "hospital_id": "H001",
+    "disease": [
+      "Heart Attack",
+      "Hypertension",
+      "Arrhythmia",
+      "Cardiomyopathy",
+      "Angina",
+      "Congenital Heart Defects",
+      "Pericarditis",
+      "Valvular Heart Disease",
+      "Coronary Artery Disease",
+      "Atherosclerosis"
+    ]
   },
   {
     "doctor_id": "D002",
     "name": "Dr. S. Raghavan",
     "specialized_in": "Neurology",
     "experience": "8 years",
-    "hospital_id": "H001"
+    "hospital_id": "H001",
+    "disease": [
+      "Epilepsy",
+      "Stroke",
+      "Migraine",
+      "Parkinson's Disease",
+      "Multiple Sclerosis",
+      "Alzheimer's Disease",
+      "Neuropathy",
+      "Cerebral Palsy",
+      "Brain Tumors",
+      "Dementia"
+    ]
   },
   {
     "doctor_id": "D003",
     "name": "Dr. P. Vishwanathan",
     "specialized_in": "Orthopedics",
     "experience": "12 years",
-    "hospital_id": "H001"
+    "hospital_id": "H001",
+    "disease": [
+      "Arthritis",
+      "Fractures",
+      "Back Pain",
+      "Osteoporosis",
+      "Sports Injuries",
+      "Scoliosis",
+      "Joint Replacement",
+      "Tendon Injuries",
+      "Bone Tumors",
+      "Carpal Tunnel Syndrome"
+    ]
   },
   {
     "doctor_id": "D004",
     "name": "Dr. M. Ramesh",
     "specialized_in": "Pediatrics",
     "experience": "5 years",
-    "hospital_id": "H002"
+    "hospital_id": "H002",
+    "disease": [
+      "Common Cold",
+      "Flu",
+      "Growth Disorders",
+      "Asthma in Children",
+      "Allergies",
+      "Chickenpox",
+      "Measles",
+      "Mumps",
+      "Nutritional Deficiencies",
+      "Bronchitis"
+    ]
   },
   {
     "doctor_id": "D005",
     "name": "Dr. N. Gopalakrishnan",
     "specialized_in": "Gynecology",
     "experience": "15 years",
-    "hospital_id": "H002"
+    "hospital_id": "H002",
+    "disease": [
+      "PCOS",
+      "Pregnancy Care",
+      "Uterine Fibroids",
+      "Endometriosis",
+      "Menstrual Disorders",
+      "Infertility",
+      "Ovarian Cysts",
+      "Cervical Dysplasia",
+      "Pelvic Inflammatory Disease",
+      "Miscarriage"
+    ]
   },
   {
     "doctor_id": "D006",
     "name": "Dr. L. Meenakshi",
     "specialized_in": "General Surgery",
     "experience": "20 years",
-    "hospital_id": "H002"
+    "hospital_id": "H002",
+    "disease": [
+      "Hernia",
+      "Gallstones",
+      "Appendicitis",
+      "Thyroid Surgery",
+      "Bowel Obstruction",
+      "Hemorrhoids",
+      "Breast Surgery",
+      "Trauma Surgery",
+      "Varicose Veins",
+      "Cysts"
+    ]
   },
   {
     "doctor_id": "D007",
     "name": "Dr. A. Patel",
     "specialized_in": "Dermatology",
     "experience": "7 years",
-    "hospital_id": "H003"
+    "hospital_id": "H003",
+    "disease": [
+      "Acne",
+      "Eczema",
+      "Psoriasis",
+      "Skin Allergies",
+      "Rosacea",
+      "Vitiligo",
+      "Fungal Infections",
+      "Hair Loss",
+      "Warts",
+      "Melanoma"
+    ]
   },
   {
     "doctor_id": "D008",
     "name": "Dr. J. Singh",
     "specialized_in": "Gastroenterology",
     "experience": "14 years",
-    "hospital_id": "H003"
+    "hospital_id": "H003",
+    "disease": [
+      "Irritable Bowel Syndrome",
+      "Hepatitis",
+      "Ulcers",
+      "Crohn's Disease",
+      "Pancreatitis",
+      "Esophageal Disorders",
+      "Liver Cirrhosis",
+      "Celiac Disease",
+      "Gallbladder Disorders",
+      "Colitis"
+    ]
   },
   {
     "doctor_id": "D009",
     "name": "Dr. K. Choudhury",
     "specialized_in": "Nephrology",
     "experience": "9 years",
-    "hospital_id": "H003"
+    "hospital_id": "H003",
+    "disease": [
+      "Kidney Stones",
+      "Chronic Kidney Disease",
+      "Acute Renal Failure",
+      "Hypertensive Nephropathy",
+      "Glomerulonephritis",
+      "Nephrotic Syndrome",
+      "Polycystic Kidney Disease",
+      "Urinary Infections",
+      "Diabetic Nephropathy",
+      "Kidney Transplant"
+    ]
   },
   {
     "doctor_id": "D010",
     "name": "Dr. R. Kumar",
     "specialized_in": "Endocrinology",
     "experience": "11 years",
-    "hospital_id": "H003"
+    "hospital_id": "H003",
+    "disease": [
+      "Diabetes",
+      "Thyroid Disorders",
+      "Hormonal Imbalances",
+      "Osteoporosis",
+      "Pituitary Disorders",
+      "Adrenal Gland Disorders",
+      "Cushing's Syndrome",
+      "Hypothyroidism",
+      "Hyperthyroidism",
+      "Metabolic Disorders"
+    ]
   },
   {
     "doctor_id": "D011",
     "name": "Dr. T. Banerjee",
     "specialized_in": "Oncology",
     "experience": "13 years",
-    "hospital_id": "H004"
+    "hospital_id": "H004",
+    "disease": [
+      "Breast Cancer",
+      "Lung Cancer",
+      "Leukemia",
+      "Prostate Cancer",
+      "Colon Cancer",
+      "Brain Tumors",
+      "Lymphoma",
+      "Melanoma",
+      "Pancreatic Cancer",
+      "Sarcoma"
+    ]
   },
   {
     "doctor_id": "D012",
     "name": "Dr. M. Kapoor",
     "specialized_in": "Ophthalmology",
     "experience": "6 years",
-    "hospital_id": "H004"
+    "hospital_id": "H004",
+    "disease": [
+      "Cataract",
+      "Glaucoma",
+      "Retinal Disorders",
+      "Macular Degeneration",
+      "Conjunctivitis",
+      "Dry Eye Syndrome",
+      "Corneal Ulcers",
+      "Diabetic Retinopathy",
+      "Eye Infections",
+      "Vision Loss"
+    ]
   },
   {
     "doctor_id": "D013",
     "name": "Dr. P. Reddy",
     "specialized_in": "Pulmonology",
     "experience": "17 years",
-    "hospital_id": "H005"
+    "hospital_id": "H005",
+    "disease": [
+      "Asthma",
+      "COPD",
+      "Pneumonia",
+      "Tuberculosis",
+      "Lung Cancer",
+      "Bronchitis",
+      "Pulmonary Hypertension",
+      "Cystic Fibrosis",
+      "Pleural Effusion",
+      "Sleep Apnea"
+    ]
   },
   {
     "doctor_id": "D014",
     "name": "Dr. S. Yadav",
     "specialized_in": "Rheumatology",
     "experience": "8 years",
-    "hospital_id": "H005"
+    "hospital_id": "H005",
+    "disease": [
+      "Rheumatoid Arthritis",
+      "Lupus",
+      "Osteoporosis",
+      "Gout",
+      "Ankylosing Spondylitis",
+      "Fibromyalgia",
+      "Psoriatic Arthritis",
+      "Sjogren's Syndrome",
+      "Vasculitis",
+      "Juvenile Arthritis"
+    ]
   },
   {
     "doctor_id": "D015",
     "name": "Dr. C. Sharma",
     "specialized_in": "Plastic Surgery",
     "experience": "12 years",
-    "hospital_id": "H005"
+    "hospital_id": "H005",
+    "disease": [
+      "Burn Reconstruction",
+      "Rhinoplasty",
+      "Facial Deformities",
+      "Cleft Lip Repair",
+      "Scar Revision",
+      "Liposuction",
+      "Breast Reconstruction",
+      "Hand Surgery",
+      "Microsurgery",
+      "Abdominoplasty"
+    ]
   },
   {
     "doctor_id": "D016",
     "name": "Dr. L. Suresh",
     "specialized_in": "Urology",
     "experience": "10 years",
-    "hospital_id": "H005"
-  },
-  {
-    "doctor_id": "D017",
-    "name": "Dr. R. Shah",
-    "specialized_in": "Cardiology",
-    "experience": "9 years",
-    "hospital_id": "H006"
-  },
-  {
-    "doctor_id": "D018",
-    "name": "Dr. P. Verma",
-    "specialized_in": "Neurology",
-    "experience": "11 years",
-    "hospital_id": "H006"
-  },
-  {
-    "doctor_id": "D019",
-    "name": "Dr. S. Mehta",
-    "specialized_in": "Orthopedics",
-    "experience": "16 years",
-    "hospital_id": "H007"
-  },
-  {
-    "doctor_id": "D020",
-    "name": "Dr. K. Joshi",
-    "specialized_in": "Pediatrics",
-    "experience": "7 years",
-    "hospital_id": "H007"
-  },
-  {
-    "doctor_id": "D021",
-    "name": "Dr. N. Iyer",
-    "specialized_in": "Gynecology",
-    "experience": "13 years",
-    "hospital_id": "H007"
-  },
-  {
-    "doctor_id": "D022",
-    "name": "Dr. M. Narayan",
-    "specialized_in": "General Surgery",
-    "experience": "22 years",
-    "hospital_id": "H008"
-  },
-  {
-    "doctor_id": "D023",
-    "name": "Dr. J. Roy",
-    "specialized_in": "Dermatology",
-    "experience": "10 years",
-    "hospital_id": "H009"
-  },
-  {
-    "doctor_id": "D024",
-    "name": "Dr. A. Bhatt",
-    "specialized_in": "Gastroenterology",
-    "experience": "14 years",
-    "hospital_id": "H009"
-  },
-  {
-    "doctor_id": "D025",
-    "name": "Dr. T. Kapoor",
-    "specialized_in": "Nephrology",
-    "experience": "8 years",
-    "hospital_id": "H010"
-  },
-  {
-    "doctor_id": "D026",
-    "name": "Dr. S. Chatterjee",
-    "specialized_in": "Endocrinology",
-    "experience": "15 years",
-    "hospital_id": "H010"
+    "hospital_id": "H005",
+    "disease": [
+      "Prostate Disorders",
+      "Urinary Tract Infections",
+      "Bladder Issues",
+      "Kidney Stones",
+      "Erectile Dysfunction",
+      "Overactive Bladder",
+      "Urinary Incontinence",
+      "Pelvic Pain",
+      "Testicular Disorders",
+      "Urethral Stricture"
+    ]
   }
 ]

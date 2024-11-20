@@ -1,26 +1,29 @@
 import React, { useEffect, useState } from "react";
 import logo from '../../assets/logo.png'
 import { AppName } from "../..";
+import { bookAppointmentApi } from "./appointmentAxio";
+import { useNavigate, useSearchParams } from "react-router-dom";
+import moment from "moment/moment";
 
 
 export default function AppointmentBookPage() {
 
+    const [params, setParams] = useSearchParams();
+
     const [payload, setPayload] = useState();
+
+    const navigator = useNavigate();
 
     const fields = [
         {
             name: 'Patient Name',
-            id: 'patientName',
+            id: 'patient_name',
             type: 'text',
-            onChange: (e) => {
-
-            }
         },
         {
             name: 'Age',
             type: 'number',
-            id: 'age',
-            onChange: (e) => { }
+            id: 'patient_age',
         },
         {
             name: 'Gender',
@@ -30,33 +33,43 @@ export default function AppointmentBookPage() {
                 'Female',
                 'Others'
             ],
-            id: 'gender',
-            onChange: (e) => { }
+            id: 'patient_gender',
         },
         {
             name: 'Contact Number',
             type: 'tel',
-            id: 'contact',
-            onChange: (e) => { }
+            id: 'patient_contact',
         },
         {
             name: 'Email',
             type: 'email',
             id: 'email',
-            onChange: (e) => { }
         },
         {
             name: 'Reason',
             type: 'textarea',
             id: 'reason',
-            onChange: (e) => { }
         },
     ];
 
-    const bookAppointment = (e) => {
+    const bookAppointment = async (e) => {
         e.preventDefault();
 
-        console.log('Appointment Details: ', payload)
+        const { data } = await bookAppointmentApi({
+            ...payload,
+            doctor_id: params.get('id'),
+            user_id: localStorage.getItem('id'),
+            date: moment().format('YYYY-MM-DD'),
+            time: moment().format('HH:mm'),
+        });
+
+        if (data) {
+            alert('Successfull')
+
+            navigator('/')
+        } else {
+            alert('Something went wrong')
+        }
     }
 
     return (
